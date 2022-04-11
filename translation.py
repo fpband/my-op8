@@ -1,12 +1,14 @@
 class Translation(object):
-    START_TEXT = """**👋 سلام {} عزیز خوش آمدید,
+    START_TEXT = """**👋 سلام {} عزیز خوش آمدید,**
 
-🔮 من ربات کاربردی آپلودر فایل هستم .
+**🔮 من ربات کاربردی آپلودر فایل هستم .
 
-• با استفاده از این ربات میتوانید لینک ها رو با سرعت بالا به فایل 
+• هم اکنون یک لینک برایم ارسال کنید تا به
+صورت فایل برایتان آپلود کنم.🤩**
 
-
-/help for more details!"""
+**📚 راهنمای ربات : /help •
+💻 سازنده ربات : @FarshidBand •**
+"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
